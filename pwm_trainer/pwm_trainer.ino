@@ -1,7 +1,13 @@
 
+int rLEDPin = 4;
+int gLEDPin = 3;
+int bLEDPin = 2;
 
 void setup() {
   Serial.begin(115200);
+  pinMode(rLEDPin, OUTPUT);
+  pinMode(gLEDPin, OUTPUT);
+  pinMode(bLEDPin, OUTPUT);
 }
 
 void loop() {
@@ -10,6 +16,7 @@ void loop() {
   int rInput = analogRead(A0);
   int gInput = analogRead(A1);
   int bInput = analogRead(A2);
+
   // print out the value you read:
   Serial.print(rInput);
   Serial.print(", ");
