@@ -34,7 +34,7 @@ Use an RGB LED that takes 3 power inputs along with resistors, not a smart LED -
 Design a board (strip board/perf board/protoboard) layout for this - which will also likely mount the potentiometers.
 Design a 3D printed case which accounts for the user elements, power/programming cable and test points.
 
-It should probably be prototyped with less fancy potentiometers on a breadboard first, so we can chekc viability of the display on the Microview.
+It should probably be prototyped with less fancy potentiometers on a breadboard first, so we can check viability of the display on the Microview.
 
 ## Software
 
